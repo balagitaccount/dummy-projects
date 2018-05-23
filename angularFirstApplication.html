@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my first angular file</title>
+	<script type="text/javascript" src="angular.js"></script>
+	<script type="text/javascript" src="angularFirstApplication.js"></script>
+</head>
+<body ng-app="firstApp" ng-controller="controller">
+	{{name}}
+ <ul>
+ 	<li>Enter your name<input type="text" name="uname" ng-model="details.name"></li>
+ 	<li>Enter your age<input type="number" name="age" ng-model="details.age"></li>
+ 	<li>Enter your password<input type="password" name="pwd" ng-model="details.password"></li>
+ </ul>
+ {{details}}
+
+</body>
+</html>
